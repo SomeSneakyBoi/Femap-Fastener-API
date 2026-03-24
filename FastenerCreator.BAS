@@ -546,7 +546,6 @@ DO_IT_AGAIN:
     b = 3
     
     ka = ef * af / h
-    ' Reconstructed mathematical formulas from the document
     ks = (((t1 + t2) / (A * RAD)) ^ a) * (((b) / (t1 * e1)) + ((b) / (t2 * e2)) + ((b) / (2 * t1 * e1)) + ((b) / (2 * t2 * e2)))
     kt = gf * jf / h
     kb = (ks ^ -1) * 100 * (h ^ 2) / 4
